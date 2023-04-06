@@ -102,7 +102,7 @@ export default class Menu extends Component {
               <a tabindex="3" href="/" onClick=${(e) => this.handleFeedClick(e)} class="logo">
                 <div class="mobile-menu-icon visible-xs-inline-block">${Icons.menu}</div>
                 <img src=${logo} width="30" height="30" />
-                <span style="font-size: 1.8em">iris</span>
+                <span style="font-size: 1.8em">la crypta</span>
               </a>
             `}
         ${APPLICATIONS.map((a) => {

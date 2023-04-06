@@ -121,7 +121,7 @@ class Main extends Component<Props, ReactState> {
       <div id="main-content">
         {isDesktopNonMac ? (
           <div className="windows-titlebar">
-            <span>iris</span>
+            <span>la crypta</span>
             <div className="title-bar-btns">
               <button className="min-btn" onClick={() => this.electronCmd('minimize')}>
                 -

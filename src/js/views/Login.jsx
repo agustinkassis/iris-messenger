@@ -11,7 +11,7 @@ import Events from '../nostr/Events';
 import Key from '../nostr/Key';
 import SocialNetwork from '../nostr/SocialNetwork';
 import { translate as t } from '../translations/Translation';
-import {route} from "preact-router";
+import { route } from 'preact-router';
 const bech32 = require('bech32-buffer');
 
 const nostrLogin = async (event) => {
@@ -153,7 +153,7 @@ class Login extends Component {
             <form id="login-form" autocomplete="off" onSubmit={(e) => this.onLoginFormSubmit(e)}>
               <div id="create-account">
                 <img width="86" height="86" src={logo} alt="iris" />
-                <h1>iris</h1>
+                <h1>La Crypta Social</h1>
                 <input
                   style={this.state.inputStyle}
                   onInput={(e) => this.onNameChange(e)}
